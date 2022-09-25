@@ -1,0 +1,143 @@
+
+body{
+    background-color: #191611;
+    font-size: 0.85em;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+.main{
+    width: 766px;
+    margin: 20px auto 0 auto;
+}
+.bg{
+    float: left;
+    width: 766px;
+    
+    background: #E3C281 url(resources/bg_page.jpg) repeat-y;
+    margin-bottom: 20px;
+}
+.topring{
+    background: url(resources/leftpage_top.jpg) no-repeat;
+    width: 766px;
+    float: left;
+   
+}
+.bottomrimg{
+    float: left;
+    width: 690px;
+   
+    padding: 0px 0 0px 76px;
+    background-image: url(resources/leftpage_bottom.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.upper{
+    float: left;
+    width: 690px;
+}
+.upperborderleft{
+    float: left;
+    line-height: 198px;
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 194px;
+    height: 200px;
+    overflow: hidden;
+    background: url(resources/logo.jpg) no-repeat;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+.upperright{
+    background: url(resources/visual.jpg);
+    width: 496px;
+    height: 200px;
+    float: right;
+}
+
+.upperborderleft a{
+    margin-left: 3px;
+    white-space: nowrap;
+    display: block;
+    line-height: 192px;
+    width: 215px;
+    height: 200px;
+    text-decoration: none;
+    color: #4A391E;
+}
+.contentright{
+    width: 425px;
+ 
+    padding: 0 47px 0px 0;
+    float: right;
+}
+
+.chapter1{
+    width: 100%;
+    float: left;
+    margin: 0 0 18px 0;
+    padding: 0;
+    text-align: justify;
+}
+.chapter1 h2{
+    text-decoration: none;
+    
+    border-bottom: 1px solid #95783B;
+    color: #46320D;
+    font-size: 1.5em;
+    margin: 0;
+}
+.chapter1 h2 a{
+    text-decoration: none;
+   
+    color: #46320D;
+   
+}
+.contentleft{
+    width: 166px;
+
+    padding: 54px 0 0 24px;
+    float: left;
+}
+.contentleft h2{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    color: #5F4D26;
+    margin-bottom: 0.4em;
+}
+.contentleft ul{
+    margin: 0 0 15px 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Trebuchet MS", TreArial, Helvetica, sans-s;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.contentleft ul li
+{
+    padding: 0 0 0 0;
+    background-image: url(images/ico_nav.gif);
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+}
+img.alignright{
+    float: right;
+    padding: 4px;
+    display: inline;
+}
+img.alignleft{
+    float:left;
+    padding: 4px;
+    display: inline;
+}
